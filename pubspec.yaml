@@ -1,0 +1,90 @@
+name: al_nafay_shopping_app
+description: Shopping App
+
+#
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.18.0
+  carousel_slider: ^4.0.0
+  cached_network_image: ^3.0.0
+  flutter_rating_stars: ^1.0.3+4
+  provider: ^6.0.3
+  flutter_secure_storage: ^5.0.2
+  fluttertoast: ^8.0.7
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/i18n/en.json
+    - assets/i18n/ar.json
+    - assets/images/drawer-header.jpg
+    - assets/images/banner-1.png
+    - assets/images/banner-2.png
+
+
+
+
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/lato/Lato-Regular.ttf
+        - asset: assets/fonts/lato/Lato-RegularItalic.ttf
+          style: italic
+        - asset: assets/fonts/lato/Lato-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/lato/Lato-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/lato/Lato-Black.ttf
+          weight: 900
+        - asset: assets/fonts/lato/Lato-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/lato/Lato-Light.ttf
+          weight: 300
+        - asset: assets/fonts/lato/Lato-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/lato/Lato-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/lato/Lato-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: Dubai
+      fonts:
+        - asset: assets/fonts/dubai/Dubai-Regular.ttf
+        - asset: assets/fonts/dubai/Dubai-Light.ttf
+          weight: 300
+        - asset: assets/fonts/dubai/Dubai-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/dubai/Dubai-Medium.ttf
+          weight: 900
+
+
